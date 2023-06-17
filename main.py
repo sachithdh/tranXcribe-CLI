@@ -14,7 +14,7 @@ args = parser.parse_args()
 # Transcribe audio file
 def transcribe(audio_file):
     # openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.api_key = "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"
+    openai.api_key = "YOUR API KEY"
 
     audio = open(audio_file, 'rb') #open audio file with given path
 
