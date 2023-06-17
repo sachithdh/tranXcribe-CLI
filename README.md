@@ -21,7 +21,6 @@ $ cd tranXcribe-CLI
 $ python3 -m pip install -r requirements.txt
 ```
 
-### USAGE AND OPTIONS
 
 Generate [Openai API key](https://platform.openai.com/account/api-keys) and add it to the ```.env``` file.
 
@@ -30,5 +29,19 @@ OPENAI_API_KEY = "<add your OPENAI API KEY here>"
 ```
 
 
+### USAGE AND OPTIONS
+
+
+<!-- MANPAGE: BEGIN EXCLUDED SECTION -->
+    python tranXcribe.py [OPTIONS]
+<!-- MANPAGE: END EXCLUDED SECTION -->
+
+#### General Options:
+
+```
+-h, --help                Print this help message and exit
+-a PATH, --audio PATH     Path to audio file
+
+```
 
 
