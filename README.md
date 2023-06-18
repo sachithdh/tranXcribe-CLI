@@ -12,7 +12,7 @@ Read FAQs [here](https://help.openai.com/en/articles/7031512-whisper-api-faq)
 
 ```console
 # clone the repo
-$ git clone [https://github.com/sacheex/tranXcribe.git](https://github.com/sacheex/tranXcribe-CLI.git)
+$ git clone https://github.com/sacheex/tranXcribe-CLI.git
 
 # navigate to the directory
 $ cd tranXcribe-CLI
